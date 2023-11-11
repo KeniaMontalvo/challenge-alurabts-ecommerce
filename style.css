@@ -11,6 +11,14 @@ a{
     text-decoration: none;
 }
 
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+}
+
 /*Barra de navegación*/
 
 nav.navbar{
@@ -40,6 +48,8 @@ div.barra__navegacion input{
     background-color: rgb(240, 240, 240);
     padding-left: 0.7rem;
     outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 div.barra__navegacion input:focus{
@@ -161,7 +171,7 @@ div.categoria__secundaria__productos{
 div.categoria__terciaria{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 div.categoria__terciaria__info{
@@ -199,10 +209,119 @@ p.precio__producto{
 
 article.producto__individual a{
     font-weight: 600;
+    color: #370859;
 }
 
 /*Sección contacto e info*/
 
+section.contenedor__contacto{
+    background-color: #E5D4FF;
+}
+
+div.contenedor__contacto__todo{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+div.contenedor__contacto__img img{
+    width: 8rem;
+    margin: 0 10px;
+}
+
+div.contenedor__contacto__nav{
+    display: flex;
+    align-items: center;
+}
+
+ul.contenedor__contacto__lista{
+    display: flex;
+    flex-direction: column;
+}
+
+li.contenedor__contacto__item{
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+li.contenedor__contacto__item a{
+    color: black;
+}
+
+div.contenedor__contacto__form{
+    display: flex;
+    flex-direction: column;
+}
+
+form.formulario__contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+h4.contenedor__contacto__form__titulo{
+    margin-bottom: 5px;
+}
+
+form.formulario__contacto label{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: gray;
+    font-size: 11px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+form.formulario__contacto input{
+    width: 30vw;
+    height: 30px;
+    outline: none;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+form.formulario__contacto input:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+form.formulario__contacto textarea{
+    width: 30vw;
+    height: 60px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-left: 10px;
+    color: gray;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+form.formulario__contacto textarea:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+button.btn-form{
+    margin: 5px 0;
+    width: 7rem;
+    height: 2.2rem;
+    border: 1px solid #610C9F;
+    background-color: #610C9F;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn-form:hover{
+    background-color: #370859;
+    border: 1px solid #370859;
+}
 
 
 /*Tablet*/

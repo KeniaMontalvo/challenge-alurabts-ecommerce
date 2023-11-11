@@ -323,6 +323,21 @@ button.btn-form:hover{
     border: 1px solid #370859;
 }
 
+/*Pie de página*/
+section.contenedor__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+footer.footer__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*Tablet*/
 @media (max-width:830px){

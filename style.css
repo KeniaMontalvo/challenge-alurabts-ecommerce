@@ -1,0 +1,62 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Barra de navegación*/
+
+nav.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.barra__navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.barra__navegacion img{
+    width: 8rem;
+    margin: 0 10px;
+}
+
+div.barra__navegacion input{
+    margin: 0 10px;
+    width: 16rem;
+    height: 1.7rem;
+    border-radius: 15px;
+    border: 1px solid rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
+    padding-left: 0.7rem;
+    outline: none;
+}
+
+div.barra__navegacion input:focus{
+    border: 1px solid #610C9F;
+}
+
+div.btn__navegacion button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #610C9F;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn-login{
+    color: #610C9F;
+}
+
+div.btn__navegacion button:hover{
+    background-color: #E5D4FF;
+    border: 1px solid #E5D4FF;
+
+}

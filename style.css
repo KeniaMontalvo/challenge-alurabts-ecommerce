@@ -114,6 +114,97 @@ button.btn-banner:hover{
     border: 1px solid #370859;
 }
 
+/*Sección productos*/
+
+section.contenedor__productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+div.categoria__principal{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+div.categoria__principal__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.categoria__principal__productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.categoria__secundaria{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+div.categoria__secundaria__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.categoria__secundaria__productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.categoria__terciaria{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+div.categoria__terciaria__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.categoria__terciaria__productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+article.producto__individual{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+article.producto__individual img{
+    width: 180px;
+}
+
+p.nombre__producto{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+p.precio__producto{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+article.producto__individual a{
+    font-weight: 600;
+}
+
+/*Sección contacto e info*/
+
+
+
 /*Tablet*/
 @media (max-width:830px){
 

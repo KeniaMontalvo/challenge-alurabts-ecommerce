@@ -406,6 +406,11 @@ footer.footer__info{
         top: 50%;
     }
 
+    button.btn-banner{
+        width: 6rem;
+        height: 2.1rem;
+        font-size: 12px;
+    }
     /*Productos*/
 
     section.contenedor__productos{
@@ -414,6 +419,14 @@ footer.footer__info{
     }
 
     div.categoria__principal__productos{
+        justify-content: center;
+    }
+
+    div.categoria__secundaria__productos{
+        justify-content: center;
+    }
+
+    div.categoria__terciaria__productos{
         justify-content: center;
     }
 

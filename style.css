@@ -378,6 +378,8 @@ footer.footer__info{
 /*Tablet*/
 @media (max-width:830px){
 
+    /*Banner*/
+
     h1.titulo_banner{
         font-size: 1rem;
     }
@@ -386,4 +388,53 @@ footer.footer__info{
         font-weight: 400;
         font-size: 0.7rem;
     }
+}
+
+/*Móvil*/
+
+@media(max-width:530px){
+
+    /*Barra de navegación*/
+
+    div.barra__navegacion input{
+        display: none;
+    }
+
+    /*Banner*/
+
+    div.info_banner {
+        top: 50%;
+    }
+
+    /*Productos*/
+
+    section.contenedor__productos{
+        justify-content: center;
+        margin: 40px 20px;
+    }
+
+    /*Sección contacto e info*/
+
+    div.contenedor__contacto__todo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.contenedor__contacto__lista{
+        align-items: center;
+    }
+
+    div.contenedor__contacto__img img {
+        width: 10rem;
+        margin: 0px 0px 10px 0px;
+    }
+
+    form.formulario__contacto input{
+        width: 60vw;
+    }
+
+    form.formulario__contacto textarea{
+        width: 60vw;
+    }
+
 }

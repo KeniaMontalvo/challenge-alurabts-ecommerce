@@ -1,0 +1,92 @@
+/*Sección de agregar producto*/
+
+section.agregar__producto__contenedor{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contenedor__agregar__form{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h3.contenedor__agregar__form__titulo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+form.formulario__agregar__producto{
+    display: flex;
+    flex-direction: column;
+}
+
+form.formulario__agregar__producto label{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: gray;
+    font-size: 11px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+form.formulario__agregar__producto input{
+    width: 30vw;
+    height: 30px;
+    outline: none;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+form.formulario__agregar__producto input:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+form.formulario__agregar__producto textarea{
+    width: 30vw;
+    height: 60px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-left: 10px;
+    color: gray;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+form.formulario__agregar__producto textarea:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+a.enlace__btn__agregar__producto{
+    display: flex;
+    justify-content: center;
+}
+
+button.btn-agregar{
+    margin: 5px 0;
+    width: 30vw;
+    height: 2.2rem;
+    border: 1px solid #610C9F;
+    background-color: #610C9F;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+button.btn-agregar:hover{
+    background-color: #370859;
+    border: 1px solid #370859;
+}

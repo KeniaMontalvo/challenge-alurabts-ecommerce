@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/img/notas-musicales.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/agregar_producto.css">
+
+    <title>Agregar producto</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav class="navbar">
+        <div class="barra__navegacion">
+            <img src="../assets/img/logo alurabts.png" alt="Logo de AluraBTS">
+            <input type="text" placeholder="¿Qué desea buscar?">
+        </div>
+        <div class="btn__navegacion">
+            <a href="../html/producto.html"><button class="btn-login">Menú Administrador</button></a>
+        </div>
+    </nav>
+
+    <!--agregar producto-->
+    <section class="agregar__producto__contenedor">
+        <div class="contenedor__agregar__form">
+            <h3 class="contenedor__agregar__form__titulo">
+                Agregar nuevo producto
+            </h3>
+            <form action="" class="formulario__agregar__producto">
+
+                <label for="url">URL de imagen</label>
+                <input type="text" name="url">
+
+                <label for="category">Categoría</label>
+                <input type="text" name="category">
+
+                <label for="name">Nombre del producto</label>
+                <input type="text" name="name">
+
+                <label for="price">Precio del producto</label>
+                <input type="text" name="price">
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>
+
+                <a href="" class="enlace__btn__agregar__producto"><button type="submit" class="btn-agregar">Agregar producto</button></a>
+            </form>
+        </div>
+    </section>
+
+
+    <!--sección de contacto-->
+    <section class="contenedor__contacto">
+
+        <div class="contenedor__contacto__todo">
+
+                <div class="contenedor__contacto__img">
+                    <img src="../assets/img/logo alurabts.png" alt="Logo AluraBTS">
+                </div>
+    
+                <div class="contenedor__contacto__nav">
+                    <ul class="contenedor__contacto__lista">
+                        <li class="contenedor__contacto__item"><a href="">Quiénes somos</a></li>
+                        <li class="contenedor__contacto__item"><a href="">Política de privacidad</a></li>
+                        <li class="contenedor__contacto__item"><a href="">Programa de fidelidad</a></li>
+                        <li class="contenedor__contacto__item"><a href="">Nuestras Tiendas</a></li>
+                        <li class="contenedor__contacto__item"><a href="">Quiero ser franquiciado</a></li>
+                        <li class="contenedor__contacto__item"><a href="">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+
+            <div class="contenedor__contacto__form">
+                <h4 class="contenedor__contacto__form__titulo">
+                    Hable con nosotros
+                </h4>
+                <form action="" class="formulario__contacto">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
+                    <a href=""><button type="submit" class="btn-form">Enviar mensaje</button></a>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Pie de página-->
+    <section class="contenedor__footer">
+        <footer class="footer__info">
+            <p class="footer__titulo">Desarrollado por Kenia Montalvo 💜</p>
+            <p class="footer__fecha">2023</p>
+        </footer>
+    </section>
+</body>
+</html>

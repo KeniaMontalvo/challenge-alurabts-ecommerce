@@ -413,6 +413,10 @@ footer.footer__info{
         margin: 40px 20px;
     }
 
+    div.categoria__principal__productos{
+        justify-content: center;
+    }
+
     /*Sección contacto e info*/
 
     div.contenedor__contacto__todo{
@@ -435,6 +439,10 @@ footer.footer__info{
 
     form.formulario__contacto textarea{
         width: 60vw;
+    }
+
+    h4.contenedor__contacto__form__titulo{
+        margin-top: 5px;
     }
 
 }

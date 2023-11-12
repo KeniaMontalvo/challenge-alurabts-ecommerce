@@ -141,11 +141,14 @@
                 <h4 class="contenedor__contacto__form__titulo">
                     Hable con nosotros
                 </h4>
-                <form action="" class="formulario__contacto">
+                <form name="form" class="formulario__contacto" id="form">
                     <label for="name">Nombre</label>
-                    <input type="text" name="name">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aquí"></textarea>
-                    <a href=""><button type="submit" class="btn-form">Enviar mensaje</button></a>
+                    <input type="text" name="name" id="name">
+                    <p class="advertencia" id="advertenciaNombre"></p>
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" id="mensaje"></textarea>
+                    <p class="advertencia" id="advertenciaMensaje"></p>
+                    <a href=""><button type="submit" class="btn-form" id="enviar-btn">Enviar mensaje</button></a>
+                    <p class="confirmacion" id="advertenciaGeneral"></p>
                 </form>
             </div>
 
@@ -160,5 +163,8 @@
             <p class="footer__fecha">2023</p>
         </footer>
     </section>
+
+    <script src="../script.js"></script>
+
 </body>
 </html>

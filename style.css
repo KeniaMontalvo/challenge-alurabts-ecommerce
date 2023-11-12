@@ -335,6 +335,7 @@ form.formulario__contacto textarea{
     outline: none;
     border: 1px solid white;
     border-radius: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 6px;
     padding-left: 10px;
@@ -348,7 +349,7 @@ form.formulario__contacto textarea:focus{
 }
 
 button.btn-form{
-    margin: 5px 0;
+    margin: 10px 0;
     width: 7rem;
     height: 2.2rem;
     border: 1px solid #610C9F;
@@ -363,6 +364,16 @@ button.btn-form{
 button.btn-form:hover{
     background-color: #370859;
     border: 1px solid #370859;
+}
+
+p.advertencia{
+    font-size: 12px;
+    color: red;
+}
+
+p.confirmacion{
+    font-size: 12px;
+    color: green;
 }
 
 /*Pie de página*/

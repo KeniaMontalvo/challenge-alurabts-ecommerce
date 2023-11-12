@@ -67,6 +67,8 @@ div.btn__navegacion button{
 
 button.btn-login{
     color: #610C9F;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 div.btn__navegacion button:hover{
@@ -117,6 +119,8 @@ button.btn-banner{
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 button.btn-banner:hover{
@@ -352,6 +356,8 @@ button.btn-form{
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 button.btn-form:hover{

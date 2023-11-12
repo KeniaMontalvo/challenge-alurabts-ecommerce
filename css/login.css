@@ -1,0 +1,82 @@
+/*Barra de navegación*/
+
+div.btn__navegacion a{
+    display: none;
+}
+
+/*Sección de login*/
+
+section.login__contenedor{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.login__formulario__principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.login__formulario__info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+h2.login__titulo{
+    font-size: 16px;
+    text-shadow: none;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+input.login__input__email{
+    width: 22rem;
+    height: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input.login__input__email:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+
+input.login__input__password{
+    width: 22rem;
+    height: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input.login__input__password:focus{
+    border-bottom: 1px solid #610C9F;
+}
+
+a.btn-login-principal{
+    width: 22rem;
+    height: 40px;
+    border: none;
+    background-color: #610C9F;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 10px;
+}

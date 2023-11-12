@@ -144,11 +144,23 @@ div.categoria__principal__info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.categoria__principal__navegacion a{
+    font-weight: 600;
+    color: #370859;
+}
+
+div.categoria__principal__navegacion img{
+    width: 15px;
 }
 
 div.categoria__principal__productos{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 div.categoria__secundaria{
@@ -161,11 +173,23 @@ div.categoria__secundaria__info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.categoria__secundaria__navegacion a{
+    font-weight: 600;
+    color: #370859;
+}
+
+div.categoria__secundaria__navegacion img{
+    width: 15px;
 }
 
 div.categoria__secundaria__productos{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 div.categoria__terciaria{
@@ -178,11 +202,23 @@ div.categoria__terciaria__info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.categoria__terciaria__navegacion a{
+    font-weight: 600;
+    color: #370859;
+}
+
+div.categoria__terciaria__navegacion img{
+    width: 15px;
 }
 
 div.categoria__terciaria__productos{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 article.producto__individual{
